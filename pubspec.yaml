@@ -1,0 +1,22 @@
+name: appdebug
+description: In-app debug overlay for Flutter with a draggable button, log viewer and log sharing, backed by loggy.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+  flutter: ">=3.38.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  collection: ^1.19.1
+  loggy: ^2.0.3
+  share_plus: ^13.3.0
+  path_provider: ^2.1.6
+  material_ui: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
